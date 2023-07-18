@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: consolas;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: gray;
+	min-height: 100vh;
+}
+.search{
+	position: relative;
+	width: 400px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search input{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	color: #555;
+	font-size: 20px;
+	padding:10px 25px ;
+	background: linear-gradient(#dbdae1,#a3aaba);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, .1),
+	15px 15px 15px rgba(0, 0, 0, .1),
+	20px 20px 20px rgba(0, 0, 0, .1),
+	30px 30px 30px rgba(0, 0, 0, .1),
+	inset 1px 1px 2px #fff;
+	z-index: 2;
+}

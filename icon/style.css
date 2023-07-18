@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #091021;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.btn{
+	border: 2px solid #00f2ff;
+	color: #00f2ff;
+	outline: none;
+	height: 40px;
+	width: 140px;
+	/*background:#0dc0d4;*/
+	font-size: 15px;
+	border-radius: 20px;
+	transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: black;
+	cursor: pointer;
+	background: #00f2ff;
+	box-shadow: 0 0 5px  #00f2ff, 0 0 20px #00f2ff, 0 0 60px #00f2ff;
+
+
+
+}
